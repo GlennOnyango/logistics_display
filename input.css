@@ -11,7 +11,7 @@
 }
 
 .advert_div {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .kind_background {
@@ -23,7 +23,8 @@
 }
 
 .solutions_div {
-    background-color: rgba(0, 0, 0, 0.3);
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7));
 }
 
 
@@ -68,4 +69,101 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.images_card_div {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/*image cards*/
+.about_us_card_background {
+    background-image: url('./assets/image-cards/about_us.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact_us_card_background {
+    background-image: url('./assets/image-cards/contact_us.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.free_zone_card_background {
+    background-image: url('./assets/image-cards/free_image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*about us*/
+
+.about_us_fmcg_background {
+    background-image: url('./assets/sector-cards/fmcg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_us_agri_background {
+    background-image: url('./assets/sector-cards/Agri.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_us_health_background {
+    background-image: url('./assets/sector-cards/health.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_us_electron_background {
+    background-image: url('./assets/sector-cards/electron.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.about_us_fashion_background {
+    background-image: url('./assets/sector-cards/fashion.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_us_automotive_background {
+    background-image: url('./assets/sector-cards/automotive.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_us_construction_background {
+    background-image: url('./assets/sector-cards/construction.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_us_chemical_background {
+    background-image: url('./assets/sector-cards/checmical.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_us_oil_background {
+    background-image: url('./assets/sector-cards/oil.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_us_cold_background {
+    background-color: ghostwhite;
 }
