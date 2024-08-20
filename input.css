@@ -4,14 +4,14 @@
 
 
 .advert {
-    background-image: url('./assets/home_advert.png');
+    background-image: url('./assets/webp_assets/home_advert.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .about_us_background {
-    background-image: url('./assets/about-us-background.png');
+    background-image: url('./assets/webp_assets/about-us-background.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
 }
 
 .kind_background {
-    background-image: url('./assets/kind_img.png');
+    background-image: url('./assets/webp_assets/kind_img.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,21 +37,21 @@
 
 /*solutions cards*/
 .storage_background {
-    background-image: url('./assets/solutions/warehouse.jpeg');
+    background-image: url('./assets/webp_assets/warehouse.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .wms_background {
-    background-image: url('./assets/solutions/wms.jpeg');
+    background-image: url('./assets/webp_assets/wms.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .pick_background {
-    background-image: url('./assets/solutions/pick&pack.png');
+    background-image: url('./assets/webp_assets/pick&pack.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@
 }
 
 .warehouse_background {
-    background-image: url('./assets/solutions/warehouse.jpeg');
+    background-image: url('./assets/webp_assets/warehouse.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@
 }
 
 .free_zone_card_background {
-    background-image: url('./assets/image-cards/free_image.png');
+    background-image: url('./assets/webp_assets/free_image.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
