@@ -4,17 +4,25 @@
 
 
 .advert {
-    background-image: url('./assets/webp_assets/home_advert.webp');
+    background-image: url('./assets/home_advert.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .about_us_background {
-    background-image: url('./assets/webp_assets/about-us-background.webp');
+    background-image: url('./assets/about-us-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.blog_background {
+    background-image: url('./assets/adrian-sulyok-InMD-APxayI-unsplash\ 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .advert_div {
@@ -22,7 +30,7 @@
 }
 
 .kind_background {
-    background-image: url('./assets/webp_assets/kind_img.webp');
+    background-image: url('./assets/kind_img.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,21 +45,21 @@
 
 /*solutions cards*/
 .storage_background {
-    background-image: url('./assets/webp_assets/warehouse.webp');
+    background-image: url('./assets/solutions/warehouse.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .wms_background {
-    background-image: url('./assets/webp_assets/wms.webp');
+    background-image: url('./assets/solutions/wms.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .pick_background {
-    background-image: url('./assets/webp_assets/pick&pack.webp');
+    background-image: url('./assets/solutions/pick&pack.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +80,7 @@
 }
 
 .warehouse_background {
-    background-image: url('./assets/webp_assets/warehouse.webp');
+    background-image: url('./assets/solutions/warehouse.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,7 +107,7 @@
 }
 
 .free_zone_card_background {
-    background-image: url('./assets/webp_assets/free_image.webp');
+    background-image: url('./assets/image-cards/free_image.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
