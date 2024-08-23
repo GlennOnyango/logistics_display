@@ -22,7 +22,7 @@ const carousel_ids_object = {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  let timeInterval = 10000;
+  let timeInterval = 5000;
   let intervalfn = () => {
     let id_item = document.querySelector(".carsouel_div").id;
     let current_idx = carousel_ids.indexOf(id_item);
@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
   change_vector = (current_id) => {
     document.querySelectorAll(".vector_change").forEach((e) => {
       if (current_id === e.id) {
-        console.log(e.id);
         //update vector color
         document.querySelector(`#${e.id}`).classList.remove("fill-white");
 
