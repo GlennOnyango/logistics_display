@@ -3,6 +3,33 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: Bahnschrift;
+    src: url("./assets/fonts/BAHNSCHRIFT.TTF");
+}
+
+
+body {
+    font-family: Bahnschrift;
+}
+
+/*Navbar items text style*/
+nav ul li a {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.mobile-nav ul li a {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.contact-btn {
+
+    font-weight: 700;
+    font-size: 24px;
+}
+
 .advert {
     background-image: url('./assets/images/home/World\ class\ Free\ Zone\ Contract\ Logistics\ in\ Nigeria\ &\ West\ Africa.jpg');
     background-size: cover;
@@ -95,7 +122,7 @@
 
 
 .advert_div {
-    background-image: linear-gradient(to right, rgba(0, 60, 255, 0.3), rgba(0, 60, 255,0.1));
+    background-image: linear-gradient(to right, rgba(0, 60, 255, 0.3), rgba(0, 60, 255, 0.1));
 }
 
 .kind_background {
