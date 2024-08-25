@@ -7,10 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -21,127 +17,173 @@
     <meta name="description" content="TY Logistics Park FZE." />
   </head>
   <body>
-    <header
-      class="bg-third_tile_about text-dark_text_para flex flex-row justify-between px-4 sm:px-12 py-4"
-    >
-      <div class="flex justify-center items-center lg:hidden">
-        <button class="text-dark_text_para flex h-fit mobile-nav__toggle">
-          <i class="fas fa-bars text-2xl"></i>
-        </button>
-      </div>
-
-      <img
-        src="assets/images/logo.jpeg"
-        loading="lazy"
-        alt="Logo"
-        class="w-36 h-14 hidden lg:flex"
-      />
-      <nav class="leading-12 hidden lg:flex">
-        <ul class="flex justify-center gap-8">
-          <li>
-            <a href="./" class="font-inter text-lg">Home</a>
-          </li>
-          <li>
-            <a href="./about-us/" class="font-inter text-lg">About Us</a>
-          </li>
-          <li>
-            <a href="./solutions/" class="font-inter text-lg">Our Solutions</a>
-          </li>
-          <li>
-            <a href="./free-zone-grade-a-facilities/" class="font-inter text-lg"
-              >Free Zone Grade-A Facilities</a
-            >
-          </li>
-        </ul>
-      </nav>
-
-      <div class="flex items-center">
-        <a
-          class="bg-solutions_card font-inter px-4 py-2 w-fit h-fit text-dark_text_para rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-dark_background hover:text-white duration-300"
-          href="./contact-us/"
-          >Contact Us</a
-        >
-      </div>
-    </header>
-
-    <section
-      class="bg-third_tile_about text-dark_text_para h-screen px-4 mobile-nav hidden"
-    >
-      <ul class="space-y-4">
-        <li>
-          <a href="./" class="font-inter text-xl">Home</a>
-        </li>
-        <li>
-          <a href="./about-us/" class="font-inter text-xl">About Us</a>
-        </li>
-        <li>
-          <a href="./solutions/" class="font-inter text-xl">Our Solutions</a>
-        </li>
-        <li>
-          <a href="./free-zone-grade-a-facilities/" class="font-inter text-xl"
-            >Free Zone Grade-A Facilities</a
-          >
-        </li>
-
-        <li>
-          <a href="./blog/" class="font-inter text-xl">Blog</a>
-        </li>
-      </ul>
-    </section>
-
     <main class="main-body">
-      <!-- Image and advert -->
-      <section class="min-h-[70vh] advert">
-        <div
-          class="px-10 md:px-24 lg:px-36 xl:px-48 py-14 flex items-end min-h-[70vh] advert_div"
-        >
-          <div class="flex flex-col md:flex-row justify-between">
-            <h1
-              class="text-5xl font-bold font-inter text-white col-span-2 text-start"
-            >
-              World class Free Zone Contract Logistics in Nigeria & West Africa.
-            </h1>
+      <section class="h-screen flex flex-col">
+        <div class="grow-0">
+          <header
+            class="bg-third_tile_about text-dark_text_para flex flex-row justify-between px-4 sm:px-12 py-4"
+          >
+            <div class="flex justify-center items-center lg:hidden">
+              <button class="text-dark_text_para flex h-fit mobile-nav__toggle">
+                <i class="fas fa-bars text-2xl"></i>
+              </button>
+            </div>
+
+            <img
+              src="assets/images/logo_logo 1.png"
+              loading="lazy"
+              alt="Logo"
+              class="w-36 h-14 hidden lg:flex"
+            />
+            <nav class="leading-12 hidden lg:flex">
+              <ul class="flex justify-center gap-8">
+                <li>
+                  <a href="./">Home</a>
+                </li>
+                <li>
+                  <a href="./about-us/">About Us</a>
+                </li>
+                <li>
+                  <a href="./solutions/">Our Solutions</a>
+                </li>
+                <li>
+                  <a href="./free-zone-grade-a-facilities/"
+                    >Free Zone Grade-A Facilities</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./blog/">Blog</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="flex items-center">
+              <a
+                class="contact-btn bg-gray_background text-white flex flex-row justify-center items-center gap-4 px-4 py-2 w-fit h-fit text-dark_text_para rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                href="./contact-us/"
+                >Contact Us
+
+                <svg
+                  width="20"
+                  height="16"
+                  viewBox="0 0 30 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M29.7071 8.70711C30.0976 8.31659 30.0976 7.68342 29.7071 7.2929L23.3431 0.928934C22.9526 0.53841 22.3195 0.53841 21.9289 0.928934C21.5384 1.31946 21.5384 1.95262 21.9289 2.34315L27.5858 8L21.9289 13.6569C21.5384 14.0474 21.5384 14.6805 21.9289 15.0711C22.3195 15.4616 22.9526 15.4616 23.3431 15.0711L29.7071 8.70711ZM-8.74228e-08 9L29 9L29 7L8.74228e-08 7L-8.74228e-08 9Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+          </header>
+
+          <section
+            class="bg-third_tile_about text-dark_text_para h-screen px-4 mobile-nav hidden"
+          >
+            <ul class="space-y-4">
+              <li>
+                <a href="./">Home</a>
+              </li>
+              <li>
+                <a href="./about-us/">About Us</a>
+              </li>
+              <li>
+                <a href="./solutions/">Our Solutions</a>
+              </li>
+              <li>
+                <a href="./free-zone-grade-a-facilities/"
+                  >Free Zone Grade-A Facilities</a
+                >
+              </li>
+
+              <li>
+                <a href="./blog/">Blog</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="grow">
+          <section
+            class="h-full carsouel_div"
+            id="advert"
+          >
             <div
-              class="flex flex-row mt-4 items-end justify-start md:justify-end gap-8 md:gap-12 md:w-1/2"
+              class="px-10 md:px-24 lg:px-36 xl:px-48 pb-8 lg:py-24 flex items-end h-[inherit] advert_div"
             >
-              <img
-                src="assets/images/Arrow 2.png"
-                alt="Direction"
-                class="h-4"
-                loading="lazy"
-              />
+              <div class="grid grid-cols-3">
+                <h1
+                  class="text-5xl font-bold text-white col-span-3 lg:col-span-2 text-start carousel_text"
+                >
+                  World class Free Zone Contract Logistics in Nigeria & West
+                  Africa.
+                </h1>
+                <div
+                  class="col-span-3 lg:col-span-1 flex flex-row mt-8 lg:mt-4 items-end justify-start lg:justify-end gap-4 lg:gap-12 w-full"
+                >
+                  <img
+                    src="assets/images/Arrow 2.png"
+                    alt="Direction"
+                    class="h-4"
+                    id="next"
+                    loading="lazy"
+                  />
 
-              <div class="flex flex-row gap-4 mt-1 ml-8">
-                <img
-                  src="assets/images/Ellipse 4.png"
-                  alt="Direction"
-                  class="h-2"
-                  loading="lazy"
-                />
+                  <div class="flex flex-row gap-4 mt-1 ml-8">
+                    <svg
+                      width="9"
+                      height="9"
+                      viewBox="0 0 9 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      id="advert_presser"
+                      class="fill-blue-500 vector_change"
+                    >
+                      <circle cx="4.5" cy="4.5" r="4.5" />
+                    </svg>
 
-                <img
-                  src="assets/images/Ellipse 4.png"
-                  alt="Direction"
-                  class="h-2"
-                  loading="lazy"
-                />
+                    <svg
+                      width="9"
+                      height="9"
+                      viewBox="0 0 9 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      id="kind_background_presser"
+                      class="fill-white vector_change"
+                    >
+                      <circle cx="4.5" cy="4.5" r="4.5" />
+                    </svg>
 
-                <img
-                  src="assets/images/Ellipse 4.png"
-                  alt="Direction"
-                  class="h-2"
-                  loading="lazy"
-                />
+                    <svg
+                      width="9"
+                      height="9"
+                      viewBox="0 0 9 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      id="blog_background_presser"
+                      class="fill-white vector_change"
+                    >
+                      <circle cx="4.5" cy="4.5" r="4.5" />
+                    </svg>
 
-                <img
-                  src="assets/images/Ellipse 4.png"
-                  alt="Direction"
-                  class="h-2"
-                  loading="lazy"
-                />
+                    <svg
+                      width="9"
+                      height="9"
+                      viewBox="0 0 9 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      id="about_us_background_presser"
+                      class="fill-white vector_change"
+                    >
+                      <circle cx="4.5" cy="4.5" r="4.5" />
+                    </svg>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </section>
 
@@ -158,14 +200,12 @@
           />
         </div>
         <div class="col-span-4 lg:col-span-2 flex flex-col">
-          <h1
-            class="font-inter text-4xl font-bold lg:text-start mb-12 lg:w-4/5"
-          >
+          <h1 class="text-[40px] font-bold lg:text-start mb-12 lg:w-4/5">
             Free Zone Logistics Hub: Gate Way to Nigeria and the West African
             Region
           </h1>
 
-          <p class="font-inter text-xl text-start mb-6 lg:w-4/5">
+          <p class="text-xl text-start font-light mb-6 lg:w-4/5">
             TY Logistics Park FZE at Alaro City Lekki Free Zone is a dynamic and
             integrated logistics hub offering a comprehensive suite of 3PL
             (Third-Party Logistics) services; warehousing/ storage, handling,
@@ -173,14 +213,14 @@
             value-added services.
           </p>
 
-          <p class="font-inter text-xl text-start mb-6 lg:w-4/5">
+          <p class="text-xl text-start font-light mb-6 lg:w-4/5">
             We take pride in being the first Grade-A Free Zone distribution
             centre that is WMS systems driven in Nigeria allowing for Free Zone
             storage and handling, pick and pack,  import/ export operations,
             value added services and importer of record services.
           </p>
 
-          <p class="font-inter text-xl text-start lg:w-4/5">
+          <p class="text-xl text-start font-light lg:w-4/5">
             The Distribution center is the biggest in Nigeria and West Africa
             with capacity of over 40,000 pallets.
           </p>
@@ -205,9 +245,15 @@
         </div>
 
         <div class="col-span-4 lg:col-span-1 flex flex-col">
-          <h1 class="font-inter text-4xl font-bold text-white mb-12">
+          <h1 class="text-[40px] font-bold text-white mb-12">
             Free Zone Benefits:
           </h1>
+
+          <img
+            src="./assets/images/articles/article 4.jpg"
+            class="w-full mb-12 lg:mb-0"
+            loading="lazy"
+          />
         </div>
 
         <div class="col-span-4 lg:col-span-3 flex flex-col">
@@ -227,11 +273,11 @@
                   />
                 </svg>
               </div>
-              <span class="text-xl font-inter"
-                ><span class="text-xl font-inter font-bold">
+              <span class="text-2xl font-light"
+                ><span class="font-bold">
                   Local Nigeria & Regional (West Africa) Distribution
-                  Strategy:</span
-                ><br />
+                  Strategy:<br />
+                </span>
                 Import Goods Duty Free into TY Logistics Park Free Zone
                 Facility. Only pay destination country duties upon re-export.
               </span>
@@ -252,8 +298,8 @@
                   />
                 </svg>
               </div>
-              <span class="text-xl font-inter"
-                ><span class="text-xl font-inter font-bold">
+              <span class="text-2xl font-light"
+                ><span class="font-bold">
                   Cut down lead times, Fulfil orders in days not months:</span
                 ><br />
                 Store goods/ buffer stock closer to your customers in the TY
@@ -277,10 +323,8 @@
                   />
                 </svg>
               </div>
-              <span class="text-xl font-inter"
-                ><span class="text-xl font-inter font-bold">
-                  Cashflow management:</span
-                ><br />
+              <span class="text-2xl font-light"
+                ><span class="font-bold"> Cashflow management:</span><br />
                 Import duty free, defer payment of duties and taxes until when
                 the goods are removed. Only pay destination country duties and
                 taxes applicable. Move capital in stable Forex in and out of the
@@ -303,8 +347,8 @@
                   />
                 </svg>
               </div>
-              <span class="text-xl font-inter"
-                ><span class="text-xl font-inter font-bold">
+              <span class="text-2xl font-light"
+                ><span class="font-bold">
                   Increased West African Market Access:</span
                 ><br />
                 Increased access to Nigeria and West African Markets with better
@@ -328,10 +372,8 @@
                   />
                 </svg>
               </div>
-              <span class="text-xl font-inter"
-                ><span class="text-xl font-inter font-bold">
-                  Cash Movement:</span
-                ><br />
+              <span class="text-2xl font-light"
+                ><span class="font-bold"> Cash Movement:</span><br />
                 A free Zone primarily operates in international currencies tax
                 free regime enabling businesses to transact freely and
                 repatriate profits and capital.
@@ -353,8 +395,8 @@
                   />
                 </svg>
               </div>
-              <span class="text-xl font-inter"
-                ><span class="text-xl font-inter font-bold">
+              <span class="text-2xl font-light"
+                ><span class="font-bold">
                   International Standards Infrastructure and Operations:</span
                 ><br />
                 Access to advanced logistics infrastructure, Grade-A racked
@@ -374,23 +416,26 @@
         <div
           class="flex flex-col px-10 md:px-24 lg:px-36 xl:px-48 py-14 bg-third_tile_about col-span-2 lg:col-span-1"
         >
-          <h1 class="font-inter text-4xl text-start font-semibold mb-10">
+          <h1 class="text-[40px] text-start font-bold mb-10">
             First of its Kind in Nigeria and West Africa.
           </h1>
-          <p class="font-inter text-xl text-start mb-5">
+          <p class="text-xl text-start font-light mb-5">
             First international standards Grade A facilities in Nigeria,
             providing free zone contract logistics services right in Nigeria.
             This allows customers to use the TY Logistics Park FZE duty free
             zone as a regional distribution hub.
           </p>
-          <p class="font-inter text-xl text-start">
-            <b>Grade A Logistics Park</b>: We are the biggest Grade-A and Edge
-            Certified Distribution Centre in West Africa.<br />
-            <b>Fully Systems Driven</b>: First contract logistics company with a
-            fully systems driven inventory management and operations environment
-            with a world class WMS, IT infrastructure and team.<br />
-            <b>Free Zone Operations</b>: First free zone regional distribution
-            centre logistics provider in West Africa.
+          <p class="text-xl font-light text-start">
+            <span class="font-bold">Grade A Logistics Park</span>: We are the
+            biggest Grade-A and Edge Certified Distribution Centre in West
+            Africa.<br />
+            <br />
+            <span class="font-bold">Fully Systems Driven</span> First contract
+            logistics company with a fully systems driven inventory management
+            and operations environment with a world class WMS, IT infrastructure
+            and team.<br /><br />
+            <span class="font-bold">Free Zone Operations</span> First free zone
+            regional distribution centre logistics provider in West Africa.
           </p>
         </div>
 
@@ -403,12 +448,12 @@
         class="min-h-[80vh] bg-gray_background text-white px-10 md:px-48 py-16"
       >
         <div class="grid grid-cols-2 w-full gap-8">
-          <h1 class="text-4xl font-bold font-inter col-span-2 text-start">
+          <h1 class="text-[40px] font-bold col-span-2 text-start">
             Our Services & Solutions
           </h1>
 
           <div class="col-span-2 flex flex-col md:flex-row justify-between">
-            <p class="text-xl md:w-1/2 text-start font-inter">
+            <p class="text-xl font-normal md:w-1/2 text-start">
               TY Logistics Park FZE takes pride in offering end-to-end contract
               logistics solutions.
             </p>
@@ -417,15 +462,21 @@
             >
               <a
                 href="./solutions/"
-                class="bg-solutions_card font-inter px-4 py-2 text-black w-fit h-fit rounded-xl flex flex-row transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                class="bg-solutions_card px-4 py-2 text-black w-fit h-fit rounded-xl flex flex-row justify-center items-center gap-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
               >
-                <span class="">All Solutions</span>
-                <img
-                  src="assets/images/Arrow 3.png"
-                  alt="Direction"
-                  loading="lazy"
-                  class="h-4 ml-4 mt-1"
-                />
+                <span class="text-2xl font-bold">All Solutions</span>
+                <svg
+                  width="30"
+                  height="16"
+                  viewBox="0 0 30 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M29.7071 8.70711C30.0976 8.31659 30.0976 7.68342 29.7071 7.2929L23.3431 0.928934C22.9526 0.53841 22.3195 0.53841 21.9289 0.928934C21.5384 1.31946 21.5384 1.95262 21.9289 2.34315L27.5858 8L21.9289 13.6569C21.5384 14.0474 21.5384 14.6805 21.9289 15.0711C22.3195 15.4616 22.9526 15.4616 23.3431 15.0711L29.7071 8.70711ZM-8.74228e-08 9L29 9L29 7L8.74228e-08 7L-8.74228e-08 9Z"
+                    fill="black"
+                  />
+                </svg>
               </a>
             </div>
           </div>
@@ -440,9 +491,7 @@
             <div
               class="solutions_div h-[inherit] w-full flex items-end px-8 py-8"
             >
-              <p
-                class="text-xl font-inter text-start font-semibold leading-[5rem]"
-              >
+              <p class="text-xl text-start font-bold leading-[5rem]">
                 Storage & handling
               </p>
             </div>
@@ -454,7 +503,7 @@
             <div
               class="solutions_div h-[inherit] w-full flex items-end px-8 py-8"
             >
-              <p class="text-xl font-inter text-start font-semibold">
+              <p class="text-xl text-start font-bold">
                 WMS Based Inventory Management
               </p>
             </div>
@@ -466,7 +515,7 @@
             <div
               class="solutions_div h-[inherit] w-full flex items-end px-8 py-8"
             >
-              <p class="text-xl font-inter text-start font-semibold">
+              <p class="text-xl text-start font-bold">
                 Pick, Pack & Value Added Services (VAS)
               </p>
             </div>
@@ -478,9 +527,7 @@
             <div
               class="solutions_div h-[inherit] w-full flex items-end px-8 py-8"
             >
-              <p
-                class="text-xl font-inter text-start font-semibold leading-[5rem]"
-              >
+              <p class="text-xl text-start font-bold leading-[5rem]">
                 Last Mile Distribution
               </p>
             </div>
@@ -492,7 +539,7 @@
             <div
               class="solutions_div h-[inherit] w-full flex items-end px-8 py-8"
             >
-              <p class="text-xl font-inter text-start font-semibold">
+              <p class="text-xl text-start font-bold">
                 Free Zone & Importer of Record (IOR) Services
               </p>
             </div>
@@ -505,7 +552,7 @@
               class="solutions_div h-[inherit] w-full flex items-end px-8 py-8"
             >
               <p
-                class="text-xl font-inter text-start font-semibold lg:leading-[1.7rem] xl:leading-[1.7rem] 2xl:leading-[5rem]"
+                class="text-xl text-start font-bold lg:leading-[1.7rem] xl:leading-[1.7rem] 2xl:leading-[5rem]"
               >
                 Site Management Solutions
               </p>
@@ -533,7 +580,7 @@
           </div>
 
           <div class="w-full lg:w-1/2 flex flex-col py-8 lg:py-36">
-            <h1 class="font-inter text-4xl font-bold text-start mb-10">
+            <h1 class="text-[40px] font-bold text-start mb-10">
               Why TY Logistics Park FZE
             </h1>
 
@@ -552,7 +599,7 @@
                   />
                 </svg>
 
-                <span class="font-inter text-xl"
+                <span class="text-xl font-normal"
                   >Free Zone Operations and Benefits</span
                 >
               </li>
@@ -569,7 +616,7 @@
                   />
                 </svg>
 
-                <span class="font-inter text-xl"
+                <span class="text-xl font-normal"
                   >Best in Class Operational & Execution Standards</span
                 >
               </li>
@@ -587,7 +634,7 @@
                     fill="white"
                   />
                 </svg>
-                <span class="font-inter text-xl">
+                <span class="text-xl font-normal">
                   Grade-A Green EDGE Certified Facilities</span
                 >
               </li>
@@ -607,7 +654,7 @@
                     fill="white"
                   />
                 </svg>
-                <span class="font-inter text-xl">
+                <span class="text-xl font-normal">
                   Systems Driven (WMS) Operations Management</span
                 >
               </li>
@@ -626,7 +673,7 @@
                   />
                 </svg>
 
-                <span class="font-inter text-xl">
+                <span class="text-xl font-normal">
                   Local & Regional Distribution Capabilities</span
                 >
               </li>
@@ -653,7 +700,7 @@
                   />
                 </svg>
 
-                <span class="font-inter text-xl">
+                <span class="text-xl font-normal">
                   Operational and Reporting Excellence</span
                 >
               </li>
@@ -672,7 +719,7 @@
                   />
                 </svg>
 
-                <span class="font-inter text-xl"
+                <span class="text-xl font-normal"
                   >Vastly Experienced Contract Logistics Team</span
                 >
               </li>
@@ -686,166 +733,245 @@
       <section
         class="min-h-[70vh] bg-solutions_card text-dark_text_para px-10 md:px-48 py-12 flex flex-col"
       >
-        <h1 class="text-4xl font-bold font-inter col-span-2 mb-12 text-start">
+        <h1 class="text-[40px] font-bold col-span-2 mb-12 text-start">
           Frequently Asked Questions ?
         </h1>
 
         <ul class="h-96 pr-4 overflow-y-scroll customized_scroll">
-          <li
-            class="font-inter font-bold text-2xl mb-4 flex flex-row justify-between p-4 bg-white"
-          >
-            1. What is a Free Zone Contract Logistics Distribution Center?
-
-            <svg
-              width="40"
-              height="40"
-              viewBox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+          <li class="text-2xl mb-4 grid grid-cols-12 p-4 bg-white">
+            <span class="col-span-1 font-bold"> 1.</span>
+            <span class="col-span-10 font-bold text-wrap"
+              >What is a Free Zone Contract Logistics Distribution Center?</span
             >
-              <path
-                d="M19.2929 28.7071C19.6834 29.0976 20.3166 29.0976 20.7071 28.7071L27.0711 22.3431C27.4616 21.9526 27.4616 21.3195 27.0711 20.9289C26.6805 20.5384 26.0474 20.5384 25.6569 20.9289L20 26.5858L14.3431 20.9289C13.9526 20.5384 13.3195 20.5384 12.9289 20.9289C12.5384 21.3195 12.5384 21.9526 12.9289 22.3431L19.2929 28.7071ZM19 12L19 28L21 28L21 12L19 12Z"
-                fill="#0088FF"
-              />
-              <circle
-                cx="20"
-                cy="20"
-                r="19"
-                stroke="#0088FF"
-                stroke-width="2"
-              />
-            </svg>
+            <div class="col-span-1 flex justify-end">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                id="faq_arrow"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.2929 28.7071C19.6834 29.0976 20.3166 29.0976 20.7071 28.7071L27.0711 22.3431C27.4616 21.9526 27.4616 21.3195 27.0711 20.9289C26.6805 20.5384 26.0474 20.5384 25.6569 20.9289L20 26.5858L14.3431 20.9289C13.9526 20.5384 13.3195 20.5384 12.9289 20.9289C12.5384 21.3195 12.5384 21.9526 12.9289 22.3431L19.2929 28.7071ZM19 12L19 28L21 28L21 12L19 12Z"
+                  fill="#0088FF"
+                />
+                <circle
+                  cx="20"
+                  cy="20"
+                  r="19"
+                  stroke="#0088FF"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+
+            <div class="col-span-10 col-start-2 pt-4 hidden">
+              <p class="text-xl mb-4">
+                A Free Zone Contract Logistics Distribution Center is a
+                specialized facility located within a free trade zone that
+                offers comprehensive logistics services, including warehousing,
+                inventory management, order fulfillment, and distribution.
+              </p>
+              <p class="text-xl mb-4">
+                The benefits of operating within a Free Zone distribution center
+                are:
+              </p>
+              <ul class="text-xl list-disc px-12 space-y-4">
+                <li>
+                  Increased access to Nigeria and West African Markets with
+                  fulfilment in days compared to months via the TY Logistics
+                  Park Free Zone
+                </li>
+
+                <li>
+                  Tax deferment until when goods are removed for Nigerian
+                  destination
+                </li>
+
+                <li>
+                  Duties relief for re-exported goods into regional countries.
+                  Duties are only applicable on destination countries
+                </li>
+
+                <li>Simplified import/export and customs procedures</li>
+
+                <li>Ease of Repatriation of profits and capital</li>
+
+                <li>
+                  Move capital in stable Forex in and out of the Free Zone
+                  freely
+                </li>
+
+                <li>Access to advanced logistics infrastructure</li>
+              </ul>
+            </div>
           </li>
-          <li
-            class="font-inter font-bold text-2xl mb-4 flex flex-row justify-between p-4 bg-white"
-          >
-            2. What are the benefits of operating within a Free Zone
-            distribution center ?
+          <li class="text-2xl mb-4 grid grid-cols-12 p-4 bg-white">
+            <span class="col-span-1 font-bold">2.</span>
 
-            <svg
-              width="40"
-              height="40"
-              viewBox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19.2929 28.7071C19.6834 29.0976 20.3166 29.0976 20.7071 28.7071L27.0711 22.3431C27.4616 21.9526 27.4616 21.3195 27.0711 20.9289C26.6805 20.5384 26.0474 20.5384 25.6569 20.9289L20 26.5858L14.3431 20.9289C13.9526 20.5384 13.3195 20.5384 12.9289 20.9289C12.5384 21.3195 12.5384 21.9526 12.9289 22.3431L19.2929 28.7071ZM19 12L19 28L21 28L21 12L19 12Z"
-                fill="#0088FF"
-              />
-              <circle
-                cx="20"
-                cy="20"
-                r="19"
-                stroke="#0088FF"
-                stroke-width="2"
-              />
-            </svg>
+            <span class="col-span-10 font-bold text-wrap"
+              >What are the benefits of operating within a Free Zone
+              distribution center ?
+            </span>
+            <div class="col-span-1 flex justify-end">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                id="faq_arrow"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.2929 28.7071C19.6834 29.0976 20.3166 29.0976 20.7071 28.7071L27.0711 22.3431C27.4616 21.9526 27.4616 21.3195 27.0711 20.9289C26.6805 20.5384 26.0474 20.5384 25.6569 20.9289L20 26.5858L14.3431 20.9289C13.9526 20.5384 13.3195 20.5384 12.9289 20.9289C12.5384 21.3195 12.5384 21.9526 12.9289 22.3431L19.2929 28.7071ZM19 12L19 28L21 28L21 12L19 12Z"
+                  fill="#0088FF"
+                />
+                <circle
+                  cx="20"
+                  cy="20"
+                  r="19"
+                  stroke="#0088FF"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+
+            <div class="col-span-10 col-start-2 pt-4 hidden">
+              <p class="text-xl">
+                The TY Free Zone center is equipped to handle a wide range of
+                goods including general cargo, FMCG, Food Grade products,
+                healthcare and pharma products, sensitive products, technology
+                devices, appliances, fashion, automotive parts, out-of-gauge
+                mining equipment, chemicals among others. The logistics park has
+                specialized racking storage areas, handling procedures and value
+                added services.
+              </p>
+            </div>
           </li>
-          <li
-            class="font-inter font-bold text-2xl mb-4 flex flex-row justify-between p-4 bg-white"
-          >
-            3. What types of goods are handled at the TY Logistics Park Free
-            Zone?
+          <li class="text-2xl mb-4 grid grid-cols-12 p-4 bg-white">
+            <span class="col-span-1 font-bold">3.</span>
+            <span class="col-span-10 font-bold text-wrap">
+              What types of goods are handled at the TY Logistics Park Free
+              Zone?
+            </span>
+            <div class="col-span-1 flex justify-end">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                id="faq_arrow"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.2929 28.7071C19.6834 29.0976 20.3166 29.0976 20.7071 28.7071L27.0711 22.3431C27.4616 21.9526 27.4616 21.3195 27.0711 20.9289C26.6805 20.5384 26.0474 20.5384 25.6569 20.9289L20 26.5858L14.3431 20.9289C13.9526 20.5384 13.3195 20.5384 12.9289 20.9289C12.5384 21.3195 12.5384 21.9526 12.9289 22.3431L19.2929 28.7071ZM19 12L19 28L21 28L21 12L19 12Z"
+                  fill="#0088FF"
+                />
+                <circle
+                  cx="20"
+                  cy="20"
+                  r="19"
+                  stroke="#0088FF"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
 
-            <svg
-              width="40"
-              height="40"
-              viewBox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19.2929 28.7071C19.6834 29.0976 20.3166 29.0976 20.7071 28.7071L27.0711 22.3431C27.4616 21.9526 27.4616 21.3195 27.0711 20.9289C26.6805 20.5384 26.0474 20.5384 25.6569 20.9289L20 26.5858L14.3431 20.9289C13.9526 20.5384 13.3195 20.5384 12.9289 20.9289C12.5384 21.3195 12.5384 21.9526 12.9289 22.3431L19.2929 28.7071ZM19 12L19 28L21 28L21 12L19 12Z"
-                fill="#0088FF"
-              />
-              <circle
-                cx="20"
-                cy="20"
-                r="19"
-                stroke="#0088FF"
-                stroke-width="2"
-              />
-            </svg>
+            <div class="col-span-10 col-start-2 pt-4 hidden">
+              <p class="text-xl">
+                At the center of our operations are a warehouse management
+                system (WMS) and inventory tracking technology, including
+                barcode scanning, and real-time data analytics, to ensure
+                accurate and efficient operations. The WMS is end-to-end that
+                tracks inventory as soon as it gets to the warehouse, receiving,
+                put-away, inventory management, cycle counts and stock counts,
+                order processing, pick and pack, and dispatch.
+              </p>
+            </div>
           </li>
-          <li
-            class="font-inter font-bold text-2xl mb-4 flex flex-row justify-between p-4 bg-white"
-          >
-            4. What technology is used to manage inventory and orders?
+          <li class="text-2xl mb-4 grid grid-cols-12 p-4 bg-white">
+            <span class="col-span-1 font-bold">4.</span>
+            <span class="col-span-10 font-bold text-wrap">
+              What technology is used to manage inventory and orders?
+            </span>
+            <div class="col-span-1 flex justify-end">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                id="faq_arrow"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.2929 28.7071C19.6834 29.0976 20.3166 29.0976 20.7071 28.7071L27.0711 22.3431C27.4616 21.9526 27.4616 21.3195 27.0711 20.9289C26.6805 20.5384 26.0474 20.5384 25.6569 20.9289L20 26.5858L14.3431 20.9289C13.9526 20.5384 13.3195 20.5384 12.9289 20.9289C12.5384 21.3195 12.5384 21.9526 12.9289 22.3431L19.2929 28.7071ZM19 12L19 28L21 28L21 12L19 12Z"
+                  fill="#0088FF"
+                />
+                <circle
+                  cx="20"
+                  cy="20"
+                  r="19"
+                  stroke="#0088FF"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
 
-            <svg
-              width="40"
-              height="40"
-              viewBox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19.2929 28.7071C19.6834 29.0976 20.3166 29.0976 20.7071 28.7071L27.0711 22.3431C27.4616 21.9526 27.4616 21.3195 27.0711 20.9289C26.6805 20.5384 26.0474 20.5384 25.6569 20.9289L20 26.5858L14.3431 20.9289C13.9526 20.5384 13.3195 20.5384 12.9289 20.9289C12.5384 21.3195 12.5384 21.9526 12.9289 22.3431L19.2929 28.7071ZM19 12L19 28L21 28L21 12L19 12Z"
-                fill="#0088FF"
-              />
-              <circle
-                cx="20"
-                cy="20"
-                r="19"
-                stroke="#0088FF"
-                stroke-width="2"
-              />
-            </svg>
+            <div class="col-span-10 col-start-2 pt-4 hidden">
+              <p class="text-xl">
+                The Distribution Center caters to a wide range of businesses,
+                including importers, OEMs, manufacturers, wholesalers,
+                e-commerce companies, retailers, distributors, chemicals and
+                mining companies among others looking to streamline their supply
+                chain operations and access the Nigerian and the West African
+                markets more efficiently with increased fulfilment lead times
+                (fulfilment in days compared to months).
+              </p>
+            </div>
           </li>
 
-          <li
-            class="font-inter font-bold text-2xl mb-4 flex flex-row justify-between p-4 bg-white"
-          >
-            5. Who can use the services of TY Logistics Park Free Zone logistics
-            distribution center?
+          <li class="text-2xl mb-4 grid grid-cols-12 p-4 bg-white">
+            <span class="col-span-1 font-bold"> 5.</span>
+            <span class="col-span-10 font-bold text-wrap">
+              Who can use the services of TY Logistics Park Free Zone logistics
+              distribution center?
+            </span>
+            <div class="col-span-1 flex justify-end">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                id="faq_arrow"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.2929 28.7071C19.6834 29.0976 20.3166 29.0976 20.7071 28.7071L27.0711 22.3431C27.4616 21.9526 27.4616 21.3195 27.0711 20.9289C26.6805 20.5384 26.0474 20.5384 25.6569 20.9289L20 26.5858L14.3431 20.9289C13.9526 20.5384 13.3195 20.5384 12.9289 20.9289C12.5384 21.3195 12.5384 21.9526 12.9289 22.3431L19.2929 28.7071ZM19 12L19 28L21 28L21 12L19 12Z"
+                  fill="#0088FF"
+                />
+                <circle
+                  cx="20"
+                  cy="20"
+                  r="19"
+                  stroke="#0088FF"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
 
-            <svg
-              width="40"
-              height="40"
-              viewBox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19.2929 28.7071C19.6834 29.0976 20.3166 29.0976 20.7071 28.7071L27.0711 22.3431C27.4616 21.9526 27.4616 21.3195 27.0711 20.9289C26.6805 20.5384 26.0474 20.5384 25.6569 20.9289L20 26.5858L14.3431 20.9289C13.9526 20.5384 13.3195 20.5384 12.9289 20.9289C12.5384 21.3195 12.5384 21.9526 12.9289 22.3431L19.2929 28.7071ZM19 12L19 28L21 28L21 12L19 12Z"
-                fill="#0088FF"
-              />
-              <circle
-                cx="20"
-                cy="20"
-                r="19"
-                stroke="#0088FF"
-                stroke-width="2"
-              />
-            </svg>
-          </li>
-
-          <li
-            class="font-inter font-bold text-2xl flex flex-row justify-between p-4 bg-white"
-          >
-            6. Who can use the services of TY Logistics Park Free Zone logistics
-            distribution center?
-
-            <svg
-              width="40"
-              height="40"
-              viewBox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19.2929 28.7071C19.6834 29.0976 20.3166 29.0976 20.7071 28.7071L27.0711 22.3431C27.4616 21.9526 27.4616 21.3195 27.0711 20.9289C26.6805 20.5384 26.0474 20.5384 25.6569 20.9289L20 26.5858L14.3431 20.9289C13.9526 20.5384 13.3195 20.5384 12.9289 20.9289C12.5384 21.3195 12.5384 21.9526 12.9289 22.3431L19.2929 28.7071ZM19 12L19 28L21 28L21 12L19 12Z"
-                fill="#0088FF"
-              />
-              <circle
-                cx="20"
-                cy="20"
-                r="19"
-                stroke="#0088FF"
-                stroke-width="2"
-              />
-            </svg>
+            <div class="col-span-10 col-start-2 pt-4 hidden">
+              <p class="text-xl">
+                Rates and costs vary based on the services required, the volume
+                of goods, and the duration of storage. TY Logistics Park FZE
+                offers flexible pricing models to suit different business needs,
+                and detailed quotes can be provided upon request. Get started
+                here
+                <a href="./contact-us/" class="text-blue-400 underline"
+                  >contact us</a
+                >.
+              </p>
+            </div>
           </li>
         </ul>
       </section>
@@ -862,7 +988,7 @@
             href="./about-us/"
             class="flex justify-center items-center images_card_div h-full"
           >
-            <h2 class="text-4xl font-inter font-bold text-white">About Us</h2>
+            <h2 class="text-4xl font-bold text-white">About Us</h2>
             <button class="px-4 sm:pt-2 text-white w-fit h-fit">
               <img
                 src="assets/images/Arrow 2.png"
@@ -880,7 +1006,7 @@
             href="./contact-us/"
             class="flex justify-center items-center images_card_div h-full"
           >
-            <h2 class="text-4xl font-inter font-bold text-white">Contact Us</h2>
+            <h2 class="text-4xl font-bold text-white">Contact Us</h2>
             <button class="px-4 sm:pt-2 text-white w-fit h-fit">
               <img
                 src="assets/images/Arrow 2.png"
@@ -898,7 +1024,7 @@
             href="./free-zone-grade-a-facilities/"
             class="flex justify-center items-center images_card_div h-full px-8"
           >
-            <h2 class="text-4xl font-inter font-bold text-white">
+            <h2 class="text-4xl font-bold text-white">
               Free Zone Grade-A Facilities
             </h2>
 
@@ -920,51 +1046,59 @@
     >
       <div class="flex flex-col">
         <img
-          src="assets/images/logo.jpeg"
+          src="assets/images/Logo white_logo copy_logo copy 1.png"
           alt="Logo"
           class="h-14 mb-8"
           loading="lazy"
         />
-        <h5 class="text-white text-start font-inter text-lg">
+        <h5 class="text-white text-start text-base font-normal">
           TY Logistics Park FZE
         </h5>
 
-        <h5 class="text-white text-start font-inter text-lg">Copyright 2024</h5>
+        <h5 class="text-white text-start text-base font-normal">
+          Copyright 2024
+        </h5>
       </div>
 
       <div>
         <ul class="gap-2">
           <li>
-            <a href="./" class="font-inter text-white text-lg">Home</a>
+            <a href="./" class="text-white text-base font-normal">Home</a>
           </li>
           <li>
-            <a href="./about-us/" class="font-inter text-white text-lg"
+            <a href="./about-us/" class="text-white text-base font-normal"
               >About Us</a
             >
           </li>
           <li>
-            <a href="./solutions/" class="font-inter text-white text-lg"
+            <a href="./solutions/" class="text-white text-base font-normal"
               >Our Solutions</a
             >
           </li>
           <li>
             <a
               href="./free-zone-grade-a-facilities/"
-              class="font-inter text-white text-lg"
-              >Free Zone Grade-A Facilities</a
+              class="text-white text-base font-normal"
+              >Grade-A Facilities</a
             >
           </li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col">
+        <ul class="gap-2 mb-12">
           <li>
-            <a href="./contact-us/" class="font-inter text-white text-lg"
+            <a href="./contact-us/" class="text-white text-base font-normal"
               >Contact Us</a
             >
           </li>
           <li>
-            <a href="./blog/" class="font-inter text-white text-lg">Blog</a>
+            <a href="./faqs/" class="text-white text-base font-normal">FAQs</a>
+          </li>
+          <li>
+            <a href="./blog/" class="text-white text-base font-normal">Blog</a>
           </li>
         </ul>
-      </div>
-      <div class="flex flex-col">
         <div class="flex flex-row gap-4 mb-10">
           <img
             src="assets/vectors/xVector.png"
@@ -979,18 +1113,24 @@
             loading="lazy"
           />
         </div>
+      </div>
 
-        <h5 class="text-white text-start font-inter text-lg">Group Company:</h5>
-        <h5 class="text-white text-start font-inter text-lg mb-6">
+      <div class="flex flex-col">
+        <h5 class="text-white text-start text-base font-bold">
+          Group Company:
+        </h5>
+        <h5 class="text-white text-start text-base mb-6 font-bold">
           Nal Comet shipping
         </h5>
 
-        <h5 class="text-white text-start font-inter text-lg">
+        <h5 class="text-white text-start text-base font-normal">
           Cookie & Privacy Policy
         </h5>
       </div>
     </footer>
 
     <script src="js/mobile-nav.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/faq.js"></script>
   </body>
 </html>
